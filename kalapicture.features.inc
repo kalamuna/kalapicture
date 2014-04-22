@@ -29,6 +29,62 @@ function kalapicture_image_default_styles() {
     'effects' => array(),
   );
 
+  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-lg_1x.
+  $styles['kalapicture_12_breakpoints_kalapicture_screen-lg_1x'] = array(
+    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-lg_1x',
+    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-lg_1x',
+    'effects' => array(),
+  );
+
+  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-lg_2x.
+  $styles['kalapicture_12_breakpoints_kalapicture_screen-lg_2x'] = array(
+    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-lg_2x',
+    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-lg_2x',
+    'effects' => array(),
+  );
+
+  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-md_1x.
+  $styles['kalapicture_12_breakpoints_kalapicture_screen-md_1x'] = array(
+    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-md_1x',
+    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-md_1x',
+    'effects' => array(),
+  );
+
+  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-md_2x.
+  $styles['kalapicture_12_breakpoints_kalapicture_screen-md_2x'] = array(
+    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-md_2x',
+    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-md_2x',
+    'effects' => array(),
+  );
+
+  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-sm_1x.
+  $styles['kalapicture_12_breakpoints_kalapicture_screen-sm_1x'] = array(
+    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-sm_1x',
+    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-sm_1x',
+    'effects' => array(),
+  );
+
+  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-sm_2x.
+  $styles['kalapicture_12_breakpoints_kalapicture_screen-sm_2x'] = array(
+    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-sm_2x',
+    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-sm_2x',
+    'effects' => array(),
+  );
+
+  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-xs_1x.
+  $styles['kalapicture_12_breakpoints_kalapicture_screen-xs_1x'] = array(
+    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-xs_1x',
+    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-xs_1x',
+    'effects' => array(),
+  );
+
+  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-xs_2x.
+  $styles['kalapicture_12_breakpoints_kalapicture_screen-xs_2x'] = array(
+    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-xs_2x',
+    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-xs_2x',
+    'effects' => array(),
+  );
+
   // Exported image style: kalapicture_3.
   $styles['kalapicture_3'] = array(
     'name' => 'kalapicture_3',
