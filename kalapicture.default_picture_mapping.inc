@@ -16,6 +16,10 @@ function kalapicture_default_picture_mapping() {
   $picture_mapping->machine_name = 'kalapicture_12';
   $picture_mapping->breakpoint_group = 'kalapicture_12';
   $picture_mapping->mapping = array(
+    'breakpoints.kalapicture.screen-xxs' => array(
+      '1x' => 'kalapicture_12_breakpoints_kalapicture_screen-xxs_1x',
+      '2x' => 'kalapicture_12_breakpoints_kalapicture_screen-xxs_2x',
+    ),
     'breakpoints.kalapicture.screen-xs' => array(
       '1x' => 'kalapicture_12_breakpoints_kalapicture_screen-xs_1x',
       '2x' => 'kalapicture_12_breakpoints_kalapicture_screen-xs_2x',

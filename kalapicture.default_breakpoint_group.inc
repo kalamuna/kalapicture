@@ -12,6 +12,7 @@ function kalapicture_default_breakpoint_group() {
 
   // Breakpoints.
   $breakpoints = array();
+  $breakpoints[] = 'breakpoints.kalapicture.screen-xxs';
   $breakpoints[] = 'breakpoints.kalapicture.screen-xs';
   $breakpoints[] = 'breakpoints.kalapicture.screen-sm';
   $breakpoints[] = 'breakpoints.kalapicture.screen-md';
@@ -30,6 +31,7 @@ function kalapicture_default_breakpoint_group() {
 
   // Breakpoints.
   $breakpoints = array();
+  $breakpoints[] = 'breakpoints.kalapicture.screen-xxs';
   $breakpoints[] = 'breakpoints.kalapicture.screen-xs';
   $breakpoints[] = 'breakpoints.kalapicture.screen-sm';
   $breakpoints[] = 'breakpoints.kalapicture.screen-md';
@@ -48,6 +50,7 @@ function kalapicture_default_breakpoint_group() {
 
   // Breakpoints.
   $breakpoints = array();
+  $breakpoints[] = 'breakpoints.kalapicture.screen-xxs';
   $breakpoints[] = 'breakpoints.kalapicture.screen-xs';
   $breakpoints[] = 'breakpoints.kalapicture.screen-sm';
   $breakpoints[] = 'breakpoints.kalapicture.screen-md';
