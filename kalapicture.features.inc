@@ -339,63 +339,264 @@ function kalapicture_image_default_styles() {
   $styles['kalapicture_6'] = array(
     'name' => 'kalapicture_6',
     'label' => 'Picture Half',
-    'effects' => array(),
+    'effects' => array(
+      11 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 555,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
   );
 
   // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-lg_1x.
   $styles['kalapicture_6_breakpoints_kalapicture_screen-lg_1x'] = array(
     'name' => 'kalapicture_6_breakpoints_kalapicture_screen-lg_1x',
     'label' => 'kalapicture_6_breakpoints_kalapicture_screen-lg_1x',
-    'effects' => array(),
+    'effects' => array(
+      14 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 555,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
   );
 
   // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-lg_2x.
   $styles['kalapicture_6_breakpoints_kalapicture_screen-lg_2x'] = array(
     'name' => 'kalapicture_6_breakpoints_kalapicture_screen-lg_2x',
     'label' => 'kalapicture_6_breakpoints_kalapicture_screen-lg_2x',
-    'effects' => array(),
+    'effects' => array(
+      15 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 1110,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
   );
 
   // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-md_1x.
   $styles['kalapicture_6_breakpoints_kalapicture_screen-md_1x'] = array(
     'name' => 'kalapicture_6_breakpoints_kalapicture_screen-md_1x',
     'label' => 'kalapicture_6_breakpoints_kalapicture_screen-md_1x',
-    'effects' => array(),
+    'effects' => array(
+      16 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 455,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
   );
 
   // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-md_2x.
   $styles['kalapicture_6_breakpoints_kalapicture_screen-md_2x'] = array(
     'name' => 'kalapicture_6_breakpoints_kalapicture_screen-md_2x',
     'label' => 'kalapicture_6_breakpoints_kalapicture_screen-md_2x',
-    'effects' => array(),
+    'effects' => array(
+      17 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 910,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
   );
 
   // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-sm_1x.
   $styles['kalapicture_6_breakpoints_kalapicture_screen-sm_1x'] = array(
     'name' => 'kalapicture_6_breakpoints_kalapicture_screen-sm_1x',
     'label' => 'kalapicture_6_breakpoints_kalapicture_screen-sm_1x',
-    'effects' => array(),
+    'effects' => array(
+      18 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 345,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
   );
 
   // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-sm_2x.
   $styles['kalapicture_6_breakpoints_kalapicture_screen-sm_2x'] = array(
     'name' => 'kalapicture_6_breakpoints_kalapicture_screen-sm_2x',
     'label' => 'kalapicture_6_breakpoints_kalapicture_screen-sm_2x',
-    'effects' => array(),
+    'effects' => array(
+      19 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 690,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
   );
 
   // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-xs_1x.
   $styles['kalapicture_6_breakpoints_kalapicture_screen-xs_1x'] = array(
     'name' => 'kalapicture_6_breakpoints_kalapicture_screen-xs_1x',
     'label' => 'kalapicture_6_breakpoints_kalapicture_screen-xs_1x',
-    'effects' => array(),
+    'effects' => array(
+      20 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 354,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
   );
 
   // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-xs_2x.
   $styles['kalapicture_6_breakpoints_kalapicture_screen-xs_2x'] = array(
     'name' => 'kalapicture_6_breakpoints_kalapicture_screen-xs_2x',
     'label' => 'kalapicture_6_breakpoints_kalapicture_screen-xs_2x',
-    'effects' => array(),
+    'effects' => array(
+      21 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 690,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
+  // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-xxs_1x.
+  $styles['kalapicture_6_breakpoints_kalapicture_screen-xxs_1x'] = array(
+    'name' => 'kalapicture_6_breakpoints_kalapicture_screen-xxs_1x',
+    'label' => 'kalapicture_6_breakpoints_kalapicture_screen-xxs_1x',
+    'effects' => array(
+      12 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 450,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
+  // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-xxs_2x.
+  $styles['kalapicture_6_breakpoints_kalapicture_screen-xxs_2x'] = array(
+    'name' => 'kalapicture_6_breakpoints_kalapicture_screen-xxs_2x',
+    'label' => 'kalapicture_6_breakpoints_kalapicture_screen-xxs_2x',
+    'effects' => array(
+      13 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 900,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
   );
 
   return $styles;
