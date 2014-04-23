@@ -112,7 +112,7 @@ function kalapicture_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => 720,
+          'width' => 940,
           'height' => '',
           'upscale' => 0,
         ),
@@ -136,7 +136,7 @@ function kalapicture_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => 1440,
+          'width' => 1880,
           'height' => '',
           'upscale' => 0,
         ),
