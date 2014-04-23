@@ -47,7 +47,7 @@ function kalapicture_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => 1170,
+          'width' => 1140,
           'height' => '',
           'upscale' => 0,
         ),
@@ -71,7 +71,7 @@ function kalapicture_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => 2340,
+          'width' => 2280,
           'height' => '',
           'upscale' => 0,
         ),
@@ -143,7 +143,7 @@ function kalapicture_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => 749,
+          'width' => 720,
           'height' => '',
           'upscale' => 0,
         ),
@@ -167,7 +167,7 @@ function kalapicture_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => 1498,
+          'width' => 1400,
           'height' => '',
           'upscale' => 0,
         ),
@@ -191,7 +191,7 @@ function kalapicture_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => 499,
+          'width' => 469,
           'height' => '',
           'upscale' => 0,
         ),
@@ -215,7 +215,7 @@ function kalapicture_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => 998,
+          'width' => 938,
           'height' => '',
           'upscale' => 0,
         ),
@@ -224,12 +224,6 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_12_breakpoints_module_navbar_wide_1x.
-  $styles['kalapicture_12_breakpoints_module_navbar_wide_1x'] = array(
-    'name' => 'kalapicture_12_breakpoints_module_navbar_wide_1x',
-    'label' => 'kalapicture_12_breakpoints_module_navbar_wide_1x',
-    'effects' => array(),
-  );
 
   // Exported image style: kalapicture_3.
   $styles['kalapicture_3'] = array(

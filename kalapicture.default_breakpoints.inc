@@ -31,7 +31,7 @@ function kalapicture_default_breakpoints() {
   $breakpoint->api_version = 1;
   $breakpoint->machine_name = 'breakpoints.kalapicture.screen-md';
   $breakpoint->name = 'screen-md';
-  $breakpoint->breakpoint = '(min-width: 750px)and (max-width: 1199px)';
+  $breakpoint->breakpoint = '(min-width: 992px)and (max-width: 1199px)';
   $breakpoint->source = 'kalapicture';
   $breakpoint->source_type = 'module';
   $breakpoint->status = 1;
@@ -47,7 +47,7 @@ function kalapicture_default_breakpoints() {
   $breakpoint->api_version = 1;
   $breakpoint->machine_name = 'breakpoints.kalapicture.screen-sm';
   $breakpoint->name = 'screen-sm';
-  $breakpoint->breakpoint = '(min-wdith: 500px) and (max-width: 749px)';
+  $breakpoint->breakpoint = '(min-wdith: 768px) and (max-width: 991px)';
   $breakpoint->source = 'kalapicture';
   $breakpoint->source_type = 'module';
   $breakpoint->status = 1;
@@ -63,7 +63,7 @@ function kalapicture_default_breakpoints() {
   $breakpoint->api_version = 1;
   $breakpoint->machine_name = 'breakpoints.kalapicture.screen-xs';
   $breakpoint->name = 'screen-xs';
-  $breakpoint->breakpoint = '(max-width: 499px)';
+  $breakpoint->breakpoint = '(max-width: 767px)';
   $breakpoint->source = 'kalapicture';
   $breakpoint->source_type = 'module';
   $breakpoint->status = 1;
