@@ -45,6 +45,10 @@ function kalapicture_default_picture_mapping() {
   $picture_mapping->machine_name = 'kalapicture_3';
   $picture_mapping->breakpoint_group = 'kalapicture_3';
   $picture_mapping->mapping = array(
+    'breakpoints.kalapicture.screen-xxs' => array(
+      '1x' => 'kalapicture_3_breakpoints_kalapicture_screen-xxs_1x',
+      '2x' => 'kalapicture_3_breakpoints_kalapicture_screen-xxs_2x',
+    ),
     'breakpoints.kalapicture.screen-xs' => array(
       '1x' => 'kalapicture_3_breakpoints_kalapicture_screen-xs_1x',
       '2x' => 'kalapicture_3_breakpoints_kalapicture_screen-xs_2x',
@@ -70,6 +74,10 @@ function kalapicture_default_picture_mapping() {
   $picture_mapping->machine_name = 'kalapicture_6';
   $picture_mapping->breakpoint_group = 'kalapicture_6';
   $picture_mapping->mapping = array(
+    'breakpoints.kalapicture.screen-xxs' => array(
+      '1x' => 'kalapicture_6_breakpoints_kalapicture_screen-xxs_1x',
+      '2x' => 'kalapicture_6_breakpoints_kalapicture_screen-xxs_2x',
+    ),
     'breakpoints.kalapicture.screen-xs' => array(
       '1x' => 'kalapicture_6_breakpoints_kalapicture_screen-xs_1x',
       '2x' => 'kalapicture_6_breakpoints_kalapicture_screen-xs_2x',
