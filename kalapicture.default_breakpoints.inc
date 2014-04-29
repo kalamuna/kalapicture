@@ -31,7 +31,7 @@ function kalapicture_default_breakpoints() {
   $breakpoint->api_version = 1;
   $breakpoint->machine_name = 'breakpoints.kalapicture.screen-md';
   $breakpoint->name = 'screen-md';
-  $breakpoint->breakpoint = '(min-width: 992px)and (max-width: 1199px)';
+  $breakpoint->breakpoint = '(min-width: 992px) and (max-width: 1199px)';
   $breakpoint->source = 'kalapicture';
   $breakpoint->source_type = 'module';
   $breakpoint->status = 1;
