@@ -97,5 +97,38 @@ function kalapicture_default_picture_mapping() {
   );
   $export['kalapicture_6'] = $picture_mapping;
 
+  $picture_mapping = new stdClass();
+  $picture_mapping->disabled = FALSE; /* Edit this to true to make a default picture_mapping disabled initially */
+  $picture_mapping->api_version = 1;
+  $picture_mapping->machine_name = 'kalapicture_jumbotron';
+  $picture_mapping->breakpoint_group = 'kalapicture_jumbotron';
+  $picture_mapping->mapping = array(
+    'breakpoints.kalapicture.screen-xs' => array(
+      '1x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xs_1x',
+      '2x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xs_2x',
+    ),
+    'breakpoints.kalapicture.screen-xxs' => array(
+      '1x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xxs_2x',
+      '2x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xxs_2x',
+    ),
+    'breakpoints.kalapicture.screen-sm' => array(
+      '1x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-sm_1x',
+      '2x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-sm_2x',
+    ),
+    'breakpoints.kalapicture.screen-md' => array(
+      '1x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-md_1x',
+      '2x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-md_2x',
+    ),
+    'breakpoints.kalapicture.screen-lg' => array(
+      '1x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-lg_1x',
+      '2x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-lg_2x',
+    ),
+    'breakpoints.kalapicture.screen-xl' => array(
+      '1x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xl_1x',
+      '2x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xl_2x',
+    ),
+  );
+  $export['kalapicture_jumbotron'] = $picture_mapping;
+
   return $export;
 }
