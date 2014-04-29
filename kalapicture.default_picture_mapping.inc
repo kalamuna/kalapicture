@@ -108,7 +108,7 @@ function kalapicture_default_picture_mapping() {
       '2x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xs_2x',
     ),
     'breakpoints.kalapicture.screen-xxs' => array(
-      '1x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xxs_2x',
+      '1x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xxs_1x',
       '2x' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xxs_2x',
     ),
     'breakpoints.kalapicture.screen-sm' => array(
