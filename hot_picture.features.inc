@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * kalapicture.features.inc
+ * hot_picture.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function kalapicture_ctools_plugin_api($module = NULL, $api = NULL) {
+function hot_picture_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "breakpoints" && $api == "default_breakpoint_group") {
     return array("version" => "1");
   }
@@ -22,12 +22,12 @@ function kalapicture_ctools_plugin_api($module = NULL, $api = NULL) {
 /**
  * Implements hook_image_default_styles().
  */
-function kalapicture_image_default_styles() {
+function hot_picture_image_default_styles() {
   $styles = array();
 
-  // Exported image style: kalapicture_12.
-  $styles['kalapicture_12'] = array(
-    'name' => 'kalapicture_12',
+  // Exported image style: hot_picture_12.
+  $styles['hot_picture_12'] = array(
+    'name' => 'hot_picture_12',
     'label' => 'Picture Full',
     'effects' => array(
       32 => array(
@@ -49,10 +49,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-lg_1x.
-  $styles['kalapicture_12_breakpoints_kalapicture_screen-lg_1x'] = array(
-    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-lg_1x',
-    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-lg_1x',
+  // Exported image style: hot_picture_12_breakpoints_hot_picture_screen-lg_1x.
+  $styles['hot_picture_12_breakpoints_hot_picture_screen-lg_1x'] = array(
+    'name' => 'hot_picture_12_breakpoints_hot_picture_screen-lg_1x',
+    'label' => 'hot_picture_12_breakpoints_hot_picture_screen-lg_1x',
     'effects' => array(
       1 => array(
         'label' => 'Scale',
@@ -73,10 +73,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-lg_2x.
-  $styles['kalapicture_12_breakpoints_kalapicture_screen-lg_2x'] = array(
-    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-lg_2x',
-    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-lg_2x',
+  // Exported image style: hot_picture_12_breakpoints_hot_picture_screen-lg_2x.
+  $styles['hot_picture_12_breakpoints_hot_picture_screen-lg_2x'] = array(
+    'name' => 'hot_picture_12_breakpoints_hot_picture_screen-lg_2x',
+    'label' => 'hot_picture_12_breakpoints_hot_picture_screen-lg_2x',
     'effects' => array(
       2 => array(
         'label' => 'Scale',
@@ -97,10 +97,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-md_1x.
-  $styles['kalapicture_12_breakpoints_kalapicture_screen-md_1x'] = array(
-    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-md_1x',
-    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-md_1x',
+  // Exported image style: hot_picture_12_breakpoints_hot_picture_screen-md_1x.
+  $styles['hot_picture_12_breakpoints_hot_picture_screen-md_1x'] = array(
+    'name' => 'hot_picture_12_breakpoints_hot_picture_screen-md_1x',
+    'label' => 'hot_picture_12_breakpoints_hot_picture_screen-md_1x',
     'effects' => array(
       3 => array(
         'label' => 'Scale',
@@ -121,10 +121,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-md_2x.
-  $styles['kalapicture_12_breakpoints_kalapicture_screen-md_2x'] = array(
-    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-md_2x',
-    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-md_2x',
+  // Exported image style: hot_picture_12_breakpoints_hot_picture_screen-md_2x.
+  $styles['hot_picture_12_breakpoints_hot_picture_screen-md_2x'] = array(
+    'name' => 'hot_picture_12_breakpoints_hot_picture_screen-md_2x',
+    'label' => 'hot_picture_12_breakpoints_hot_picture_screen-md_2x',
     'effects' => array(
       4 => array(
         'label' => 'Scale',
@@ -145,10 +145,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-sm_1x.
-  $styles['kalapicture_12_breakpoints_kalapicture_screen-sm_1x'] = array(
-    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-sm_1x',
-    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-sm_1x',
+  // Exported image style: hot_picture_12_breakpoints_hot_picture_screen-sm_1x.
+  $styles['hot_picture_12_breakpoints_hot_picture_screen-sm_1x'] = array(
+    'name' => 'hot_picture_12_breakpoints_hot_picture_screen-sm_1x',
+    'label' => 'hot_picture_12_breakpoints_hot_picture_screen-sm_1x',
     'effects' => array(
       5 => array(
         'label' => 'Scale',
@@ -169,10 +169,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-sm_2x.
-  $styles['kalapicture_12_breakpoints_kalapicture_screen-sm_2x'] = array(
-    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-sm_2x',
-    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-sm_2x',
+  // Exported image style: hot_picture_12_breakpoints_hot_picture_screen-sm_2x.
+  $styles['hot_picture_12_breakpoints_hot_picture_screen-sm_2x'] = array(
+    'name' => 'hot_picture_12_breakpoints_hot_picture_screen-sm_2x',
+    'label' => 'hot_picture_12_breakpoints_hot_picture_screen-sm_2x',
     'effects' => array(
       6 => array(
         'label' => 'Scale',
@@ -193,10 +193,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-xs_1x.
-  $styles['kalapicture_12_breakpoints_kalapicture_screen-xs_1x'] = array(
-    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-xs_1x',
-    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-xs_1x',
+  // Exported image style: hot_picture_12_breakpoints_hot_picture_screen-xs_1x.
+  $styles['hot_picture_12_breakpoints_hot_picture_screen-xs_1x'] = array(
+    'name' => 'hot_picture_12_breakpoints_hot_picture_screen-xs_1x',
+    'label' => 'hot_picture_12_breakpoints_hot_picture_screen-xs_1x',
     'effects' => array(
       7 => array(
         'label' => 'Scale',
@@ -217,10 +217,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-xs_2x.
-  $styles['kalapicture_12_breakpoints_kalapicture_screen-xs_2x'] = array(
-    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-xs_2x',
-    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-xs_2x',
+  // Exported image style: hot_picture_12_breakpoints_hot_picture_screen-xs_2x.
+  $styles['hot_picture_12_breakpoints_hot_picture_screen-xs_2x'] = array(
+    'name' => 'hot_picture_12_breakpoints_hot_picture_screen-xs_2x',
+    'label' => 'hot_picture_12_breakpoints_hot_picture_screen-xs_2x',
     'effects' => array(
       8 => array(
         'label' => 'Scale',
@@ -241,10 +241,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-xxs_1x.
-  $styles['kalapicture_12_breakpoints_kalapicture_screen-xxs_1x'] = array(
-    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-xxs_1x',
-    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-xxs_1x',
+  // Exported image style: hot_picture_12_breakpoints_hot_picture_screen-xxs_1x.
+  $styles['hot_picture_12_breakpoints_hot_picture_screen-xxs_1x'] = array(
+    'name' => 'hot_picture_12_breakpoints_hot_picture_screen-xxs_1x',
+    'label' => 'hot_picture_12_breakpoints_hot_picture_screen-xxs_1x',
     'effects' => array(
       9 => array(
         'label' => 'Scale',
@@ -265,10 +265,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_12_breakpoints_kalapicture_screen-xxs_2x.
-  $styles['kalapicture_12_breakpoints_kalapicture_screen-xxs_2x'] = array(
-    'name' => 'kalapicture_12_breakpoints_kalapicture_screen-xxs_2x',
-    'label' => 'kalapicture_12_breakpoints_kalapicture_screen-xxs_2x',
+  // Exported image style: hot_picture_12_breakpoints_hot_picture_screen-xxs_2x.
+  $styles['hot_picture_12_breakpoints_hot_picture_screen-xxs_2x'] = array(
+    'name' => 'hot_picture_12_breakpoints_hot_picture_screen-xxs_2x',
+    'label' => 'hot_picture_12_breakpoints_hot_picture_screen-xxs_2x',
     'effects' => array(
       10 => array(
         'label' => 'Scale',
@@ -289,9 +289,9 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_3.
-  $styles['kalapicture_3'] = array(
-    'name' => 'kalapicture_3',
+  // Exported image style: hot_picture_3.
+  $styles['hot_picture_3'] = array(
+    'name' => 'hot_picture_3',
     'label' => 'Picture Quarter',
     'effects' => array(
       22 => array(
@@ -313,10 +313,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_3_breakpoints_kalapicture_screen-lg_1x.
-  $styles['kalapicture_3_breakpoints_kalapicture_screen-lg_1x'] = array(
-    'name' => 'kalapicture_3_breakpoints_kalapicture_screen-lg_1x',
-    'label' => 'kalapicture_3_breakpoints_kalapicture_screen-lg_1x',
+  // Exported image style: hot_picture_3_breakpoints_hot_picture_screen-lg_1x.
+  $styles['hot_picture_3_breakpoints_hot_picture_screen-lg_1x'] = array(
+    'name' => 'hot_picture_3_breakpoints_hot_picture_screen-lg_1x',
+    'label' => 'hot_picture_3_breakpoints_hot_picture_screen-lg_1x',
     'effects' => array(
       23 => array(
         'label' => 'Scale',
@@ -337,10 +337,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_3_breakpoints_kalapicture_screen-lg_2x.
-  $styles['kalapicture_3_breakpoints_kalapicture_screen-lg_2x'] = array(
-    'name' => 'kalapicture_3_breakpoints_kalapicture_screen-lg_2x',
-    'label' => 'kalapicture_3_breakpoints_kalapicture_screen-lg_2x',
+  // Exported image style: hot_picture_3_breakpoints_hot_picture_screen-lg_2x.
+  $styles['hot_picture_3_breakpoints_hot_picture_screen-lg_2x'] = array(
+    'name' => 'hot_picture_3_breakpoints_hot_picture_screen-lg_2x',
+    'label' => 'hot_picture_3_breakpoints_hot_picture_screen-lg_2x',
     'effects' => array(
       24 => array(
         'label' => 'Scale',
@@ -361,10 +361,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_3_breakpoints_kalapicture_screen-md_1x.
-  $styles['kalapicture_3_breakpoints_kalapicture_screen-md_1x'] = array(
-    'name' => 'kalapicture_3_breakpoints_kalapicture_screen-md_1x',
-    'label' => 'kalapicture_3_breakpoints_kalapicture_screen-md_1x',
+  // Exported image style: hot_picture_3_breakpoints_hot_picture_screen-md_1x.
+  $styles['hot_picture_3_breakpoints_hot_picture_screen-md_1x'] = array(
+    'name' => 'hot_picture_3_breakpoints_hot_picture_screen-md_1x',
+    'label' => 'hot_picture_3_breakpoints_hot_picture_screen-md_1x',
     'effects' => array(
       25 => array(
         'label' => 'Scale',
@@ -385,10 +385,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_3_breakpoints_kalapicture_screen-md_2x.
-  $styles['kalapicture_3_breakpoints_kalapicture_screen-md_2x'] = array(
-    'name' => 'kalapicture_3_breakpoints_kalapicture_screen-md_2x',
-    'label' => 'kalapicture_3_breakpoints_kalapicture_screen-md_2x',
+  // Exported image style: hot_picture_3_breakpoints_hot_picture_screen-md_2x.
+  $styles['hot_picture_3_breakpoints_hot_picture_screen-md_2x'] = array(
+    'name' => 'hot_picture_3_breakpoints_hot_picture_screen-md_2x',
+    'label' => 'hot_picture_3_breakpoints_hot_picture_screen-md_2x',
     'effects' => array(
       26 => array(
         'label' => 'Scale',
@@ -409,10 +409,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_3_breakpoints_kalapicture_screen-sm_1x.
-  $styles['kalapicture_3_breakpoints_kalapicture_screen-sm_1x'] = array(
-    'name' => 'kalapicture_3_breakpoints_kalapicture_screen-sm_1x',
-    'label' => 'kalapicture_3_breakpoints_kalapicture_screen-sm_1x',
+  // Exported image style: hot_picture_3_breakpoints_hot_picture_screen-sm_1x.
+  $styles['hot_picture_3_breakpoints_hot_picture_screen-sm_1x'] = array(
+    'name' => 'hot_picture_3_breakpoints_hot_picture_screen-sm_1x',
+    'label' => 'hot_picture_3_breakpoints_hot_picture_screen-sm_1x',
     'effects' => array(
       28 => array(
         'label' => 'Scale',
@@ -433,10 +433,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_3_breakpoints_kalapicture_screen-sm_2x.
-  $styles['kalapicture_3_breakpoints_kalapicture_screen-sm_2x'] = array(
-    'name' => 'kalapicture_3_breakpoints_kalapicture_screen-sm_2x',
-    'label' => 'kalapicture_3_breakpoints_kalapicture_screen-sm_2x',
+  // Exported image style: hot_picture_3_breakpoints_hot_picture_screen-sm_2x.
+  $styles['hot_picture_3_breakpoints_hot_picture_screen-sm_2x'] = array(
+    'name' => 'hot_picture_3_breakpoints_hot_picture_screen-sm_2x',
+    'label' => 'hot_picture_3_breakpoints_hot_picture_screen-sm_2x',
     'effects' => array(
       29 => array(
         'label' => 'Scale',
@@ -457,10 +457,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_3_breakpoints_kalapicture_screen-xs_1x.
-  $styles['kalapicture_3_breakpoints_kalapicture_screen-xs_1x'] = array(
-    'name' => 'kalapicture_3_breakpoints_kalapicture_screen-xs_1x',
-    'label' => 'kalapicture_3_breakpoints_kalapicture_screen-xs_1x',
+  // Exported image style: hot_picture_3_breakpoints_hot_picture_screen-xs_1x.
+  $styles['hot_picture_3_breakpoints_hot_picture_screen-xs_1x'] = array(
+    'name' => 'hot_picture_3_breakpoints_hot_picture_screen-xs_1x',
+    'label' => 'hot_picture_3_breakpoints_hot_picture_screen-xs_1x',
     'effects' => array(
       33 => array(
         'label' => 'Scale',
@@ -481,10 +481,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_3_breakpoints_kalapicture_screen-xs_2x.
-  $styles['kalapicture_3_breakpoints_kalapicture_screen-xs_2x'] = array(
-    'name' => 'kalapicture_3_breakpoints_kalapicture_screen-xs_2x',
-    'label' => 'kalapicture_3_breakpoints_kalapicture_screen-xs_2x',
+  // Exported image style: hot_picture_3_breakpoints_hot_picture_screen-xs_2x.
+  $styles['hot_picture_3_breakpoints_hot_picture_screen-xs_2x'] = array(
+    'name' => 'hot_picture_3_breakpoints_hot_picture_screen-xs_2x',
+    'label' => 'hot_picture_3_breakpoints_hot_picture_screen-xs_2x',
     'effects' => array(
       34 => array(
         'label' => 'Scale',
@@ -505,10 +505,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_3_breakpoints_kalapicture_screen-xxs_1x.
-  $styles['kalapicture_3_breakpoints_kalapicture_screen-xxs_1x'] = array(
-    'name' => 'kalapicture_3_breakpoints_kalapicture_screen-xxs_1x',
-    'label' => 'kalapicture_3_breakpoints_kalapicture_screen-xxs_1x',
+  // Exported image style: hot_picture_3_breakpoints_hot_picture_screen-xxs_1x.
+  $styles['hot_picture_3_breakpoints_hot_picture_screen-xxs_1x'] = array(
+    'name' => 'hot_picture_3_breakpoints_hot_picture_screen-xxs_1x',
+    'label' => 'hot_picture_3_breakpoints_hot_picture_screen-xxs_1x',
     'effects' => array(
       30 => array(
         'label' => 'Scale',
@@ -529,10 +529,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_3_breakpoints_kalapicture_screen-xxs_2x.
-  $styles['kalapicture_3_breakpoints_kalapicture_screen-xxs_2x'] = array(
-    'name' => 'kalapicture_3_breakpoints_kalapicture_screen-xxs_2x',
-    'label' => 'kalapicture_3_breakpoints_kalapicture_screen-xxs_2x',
+  // Exported image style: hot_picture_3_breakpoints_hot_picture_screen-xxs_2x.
+  $styles['hot_picture_3_breakpoints_hot_picture_screen-xxs_2x'] = array(
+    'name' => 'hot_picture_3_breakpoints_hot_picture_screen-xxs_2x',
+    'label' => 'hot_picture_3_breakpoints_hot_picture_screen-xxs_2x',
     'effects' => array(
       31 => array(
         'label' => 'Scale',
@@ -553,9 +553,9 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_6.
-  $styles['kalapicture_6'] = array(
-    'name' => 'kalapicture_6',
+  // Exported image style: hot_picture_6.
+  $styles['hot_picture_6'] = array(
+    'name' => 'hot_picture_6',
     'label' => 'Picture Half',
     'effects' => array(
       11 => array(
@@ -577,10 +577,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-lg_1x.
-  $styles['kalapicture_6_breakpoints_kalapicture_screen-lg_1x'] = array(
-    'name' => 'kalapicture_6_breakpoints_kalapicture_screen-lg_1x',
-    'label' => 'kalapicture_6_breakpoints_kalapicture_screen-lg_1x',
+  // Exported image style: hot_picture_6_breakpoints_hot_picture_screen-lg_1x.
+  $styles['hot_picture_6_breakpoints_hot_picture_screen-lg_1x'] = array(
+    'name' => 'hot_picture_6_breakpoints_hot_picture_screen-lg_1x',
+    'label' => 'hot_picture_6_breakpoints_hot_picture_screen-lg_1x',
     'effects' => array(
       14 => array(
         'label' => 'Scale',
@@ -601,10 +601,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-lg_2x.
-  $styles['kalapicture_6_breakpoints_kalapicture_screen-lg_2x'] = array(
-    'name' => 'kalapicture_6_breakpoints_kalapicture_screen-lg_2x',
-    'label' => 'kalapicture_6_breakpoints_kalapicture_screen-lg_2x',
+  // Exported image style: hot_picture_6_breakpoints_hot_picture_screen-lg_2x.
+  $styles['hot_picture_6_breakpoints_hot_picture_screen-lg_2x'] = array(
+    'name' => 'hot_picture_6_breakpoints_hot_picture_screen-lg_2x',
+    'label' => 'hot_picture_6_breakpoints_hot_picture_screen-lg_2x',
     'effects' => array(
       15 => array(
         'label' => 'Scale',
@@ -625,10 +625,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-md_1x.
-  $styles['kalapicture_6_breakpoints_kalapicture_screen-md_1x'] = array(
-    'name' => 'kalapicture_6_breakpoints_kalapicture_screen-md_1x',
-    'label' => 'kalapicture_6_breakpoints_kalapicture_screen-md_1x',
+  // Exported image style: hot_picture_6_breakpoints_hot_picture_screen-md_1x.
+  $styles['hot_picture_6_breakpoints_hot_picture_screen-md_1x'] = array(
+    'name' => 'hot_picture_6_breakpoints_hot_picture_screen-md_1x',
+    'label' => 'hot_picture_6_breakpoints_hot_picture_screen-md_1x',
     'effects' => array(
       16 => array(
         'label' => 'Scale',
@@ -649,10 +649,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-md_2x.
-  $styles['kalapicture_6_breakpoints_kalapicture_screen-md_2x'] = array(
-    'name' => 'kalapicture_6_breakpoints_kalapicture_screen-md_2x',
-    'label' => 'kalapicture_6_breakpoints_kalapicture_screen-md_2x',
+  // Exported image style: hot_picture_6_breakpoints_hot_picture_screen-md_2x.
+  $styles['hot_picture_6_breakpoints_hot_picture_screen-md_2x'] = array(
+    'name' => 'hot_picture_6_breakpoints_hot_picture_screen-md_2x',
+    'label' => 'hot_picture_6_breakpoints_hot_picture_screen-md_2x',
     'effects' => array(
       17 => array(
         'label' => 'Scale',
@@ -673,10 +673,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-sm_1x.
-  $styles['kalapicture_6_breakpoints_kalapicture_screen-sm_1x'] = array(
-    'name' => 'kalapicture_6_breakpoints_kalapicture_screen-sm_1x',
-    'label' => 'kalapicture_6_breakpoints_kalapicture_screen-sm_1x',
+  // Exported image style: hot_picture_6_breakpoints_hot_picture_screen-sm_1x.
+  $styles['hot_picture_6_breakpoints_hot_picture_screen-sm_1x'] = array(
+    'name' => 'hot_picture_6_breakpoints_hot_picture_screen-sm_1x',
+    'label' => 'hot_picture_6_breakpoints_hot_picture_screen-sm_1x',
     'effects' => array(
       18 => array(
         'label' => 'Scale',
@@ -697,10 +697,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-sm_2x.
-  $styles['kalapicture_6_breakpoints_kalapicture_screen-sm_2x'] = array(
-    'name' => 'kalapicture_6_breakpoints_kalapicture_screen-sm_2x',
-    'label' => 'kalapicture_6_breakpoints_kalapicture_screen-sm_2x',
+  // Exported image style: hot_picture_6_breakpoints_hot_picture_screen-sm_2x.
+  $styles['hot_picture_6_breakpoints_hot_picture_screen-sm_2x'] = array(
+    'name' => 'hot_picture_6_breakpoints_hot_picture_screen-sm_2x',
+    'label' => 'hot_picture_6_breakpoints_hot_picture_screen-sm_2x',
     'effects' => array(
       19 => array(
         'label' => 'Scale',
@@ -721,10 +721,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-xs_1x.
-  $styles['kalapicture_6_breakpoints_kalapicture_screen-xs_1x'] = array(
-    'name' => 'kalapicture_6_breakpoints_kalapicture_screen-xs_1x',
-    'label' => 'kalapicture_6_breakpoints_kalapicture_screen-xs_1x',
+  // Exported image style: hot_picture_6_breakpoints_hot_picture_screen-xs_1x.
+  $styles['hot_picture_6_breakpoints_hot_picture_screen-xs_1x'] = array(
+    'name' => 'hot_picture_6_breakpoints_hot_picture_screen-xs_1x',
+    'label' => 'hot_picture_6_breakpoints_hot_picture_screen-xs_1x',
     'effects' => array(
       20 => array(
         'label' => 'Scale',
@@ -745,10 +745,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-xs_2x.
-  $styles['kalapicture_6_breakpoints_kalapicture_screen-xs_2x'] = array(
-    'name' => 'kalapicture_6_breakpoints_kalapicture_screen-xs_2x',
-    'label' => 'kalapicture_6_breakpoints_kalapicture_screen-xs_2x',
+  // Exported image style: hot_picture_6_breakpoints_hot_picture_screen-xs_2x.
+  $styles['hot_picture_6_breakpoints_hot_picture_screen-xs_2x'] = array(
+    'name' => 'hot_picture_6_breakpoints_hot_picture_screen-xs_2x',
+    'label' => 'hot_picture_6_breakpoints_hot_picture_screen-xs_2x',
     'effects' => array(
       21 => array(
         'label' => 'Scale',
@@ -769,10 +769,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-xxs_1x.
-  $styles['kalapicture_6_breakpoints_kalapicture_screen-xxs_1x'] = array(
-    'name' => 'kalapicture_6_breakpoints_kalapicture_screen-xxs_1x',
-    'label' => 'kalapicture_6_breakpoints_kalapicture_screen-xxs_1x',
+  // Exported image style: hot_picture_6_breakpoints_hot_picture_screen-xxs_1x.
+  $styles['hot_picture_6_breakpoints_hot_picture_screen-xxs_1x'] = array(
+    'name' => 'hot_picture_6_breakpoints_hot_picture_screen-xxs_1x',
+    'label' => 'hot_picture_6_breakpoints_hot_picture_screen-xxs_1x',
     'effects' => array(
       12 => array(
         'label' => 'Scale',
@@ -793,10 +793,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_6_breakpoints_kalapicture_screen-xxs_2x.
-  $styles['kalapicture_6_breakpoints_kalapicture_screen-xxs_2x'] = array(
-    'name' => 'kalapicture_6_breakpoints_kalapicture_screen-xxs_2x',
-    'label' => 'kalapicture_6_breakpoints_kalapicture_screen-xxs_2x',
+  // Exported image style: hot_picture_6_breakpoints_hot_picture_screen-xxs_2x.
+  $styles['hot_picture_6_breakpoints_hot_picture_screen-xxs_2x'] = array(
+    'name' => 'hot_picture_6_breakpoints_hot_picture_screen-xxs_2x',
+    'label' => 'hot_picture_6_breakpoints_hot_picture_screen-xxs_2x',
     'effects' => array(
       13 => array(
         'label' => 'Scale',
@@ -817,17 +817,17 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_jumbotron.
-  $styles['kalapicture_jumbotron'] = array(
-    'name' => 'kalapicture_jumbotron',
+  // Exported image style: hot_picture_jumbotron.
+  $styles['hot_picture_jumbotron'] = array(
+    'name' => 'hot_picture_jumbotron',
     'label' => 'Jumbotron',
     'effects' => array(),
   );
 
-  // Exported image style: kalapicture_jumbotron_breakpoints_kalapicture_screen-lg_1x.
-  $styles['kalapicture_jumbotron_breakpoints_kalapicture_screen-lg_1x'] = array(
-    'name' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-lg_1x',
-    'label' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-lg_1x',
+  // Exported image style: hot_picture_jumbotron_breakpoints_hot_picture_screen-lg_1x.
+  $styles['hot_picture_jumbotron_breakpoints_hot_picture_screen-lg_1x'] = array(
+    'name' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-lg_1x',
+    'label' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-lg_1x',
     'effects' => array(
       1 => array(
         'label' => 'Scale',
@@ -848,10 +848,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_jumbotron_breakpoints_kalapicture_screen-lg_2x.
-  $styles['kalapicture_jumbotron_breakpoints_kalapicture_screen-lg_2x'] = array(
-    'name' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-lg_2x',
-    'label' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-lg_2x',
+  // Exported image style: hot_picture_jumbotron_breakpoints_hot_picture_screen-lg_2x.
+  $styles['hot_picture_jumbotron_breakpoints_hot_picture_screen-lg_2x'] = array(
+    'name' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-lg_2x',
+    'label' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-lg_2x',
     'effects' => array(
       2 => array(
         'label' => 'Scale',
@@ -872,10 +872,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_jumbotron_breakpoints_kalapicture_screen-md_1x.
-  $styles['kalapicture_jumbotron_breakpoints_kalapicture_screen-md_1x'] = array(
-    'name' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-md_1x',
-    'label' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-md_1x',
+  // Exported image style: hot_picture_jumbotron_breakpoints_hot_picture_screen-md_1x.
+  $styles['hot_picture_jumbotron_breakpoints_hot_picture_screen-md_1x'] = array(
+    'name' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-md_1x',
+    'label' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-md_1x',
     'effects' => array(
       5 => array(
         'label' => 'Scale',
@@ -896,10 +896,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_jumbotron_breakpoints_kalapicture_screen-md_2x.
-  $styles['kalapicture_jumbotron_breakpoints_kalapicture_screen-md_2x'] = array(
-    'name' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-md_2x',
-    'label' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-md_2x',
+  // Exported image style: hot_picture_jumbotron_breakpoints_hot_picture_screen-md_2x.
+  $styles['hot_picture_jumbotron_breakpoints_hot_picture_screen-md_2x'] = array(
+    'name' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-md_2x',
+    'label' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-md_2x',
     'effects' => array(
       6 => array(
         'label' => 'Scale',
@@ -920,10 +920,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_jumbotron_breakpoints_kalapicture_screen-sm_1x.
-  $styles['kalapicture_jumbotron_breakpoints_kalapicture_screen-sm_1x'] = array(
-    'name' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-sm_1x',
-    'label' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-sm_1x',
+  // Exported image style: hot_picture_jumbotron_breakpoints_hot_picture_screen-sm_1x.
+  $styles['hot_picture_jumbotron_breakpoints_hot_picture_screen-sm_1x'] = array(
+    'name' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-sm_1x',
+    'label' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-sm_1x',
     'effects' => array(
       7 => array(
         'label' => 'Scale',
@@ -944,10 +944,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_jumbotron_breakpoints_kalapicture_screen-sm_2x.
-  $styles['kalapicture_jumbotron_breakpoints_kalapicture_screen-sm_2x'] = array(
-    'name' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-sm_2x',
-    'label' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-sm_2x',
+  // Exported image style: hot_picture_jumbotron_breakpoints_hot_picture_screen-sm_2x.
+  $styles['hot_picture_jumbotron_breakpoints_hot_picture_screen-sm_2x'] = array(
+    'name' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-sm_2x',
+    'label' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-sm_2x',
     'effects' => array(
       8 => array(
         'label' => 'Scale',
@@ -968,10 +968,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_jumbotron_breakpoints_kalapicture_screen-xl_1x.
-  $styles['kalapicture_jumbotron_breakpoints_kalapicture_screen-xl_1x'] = array(
-    'name' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xl_1x',
-    'label' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xl_1x',
+  // Exported image style: hot_picture_jumbotron_breakpoints_hot_picture_screen-xl_1x.
+  $styles['hot_picture_jumbotron_breakpoints_hot_picture_screen-xl_1x'] = array(
+    'name' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-xl_1x',
+    'label' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-xl_1x',
     'effects' => array(
       3 => array(
         'label' => 'Scale',
@@ -992,10 +992,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_jumbotron_breakpoints_kalapicture_screen-xl_2x.
-  $styles['kalapicture_jumbotron_breakpoints_kalapicture_screen-xl_2x'] = array(
-    'name' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xl_2x',
-    'label' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xl_2x',
+  // Exported image style: hot_picture_jumbotron_breakpoints_hot_picture_screen-xl_2x.
+  $styles['hot_picture_jumbotron_breakpoints_hot_picture_screen-xl_2x'] = array(
+    'name' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-xl_2x',
+    'label' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-xl_2x',
     'effects' => array(
       4 => array(
         'label' => 'Scale',
@@ -1016,10 +1016,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_jumbotron_breakpoints_kalapicture_screen-xs_1x.
-  $styles['kalapicture_jumbotron_breakpoints_kalapicture_screen-xs_1x'] = array(
-    'name' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xs_1x',
-    'label' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xs_1x',
+  // Exported image style: hot_picture_jumbotron_breakpoints_hot_picture_screen-xs_1x.
+  $styles['hot_picture_jumbotron_breakpoints_hot_picture_screen-xs_1x'] = array(
+    'name' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-xs_1x',
+    'label' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-xs_1x',
     'effects' => array(
       9 => array(
         'label' => 'Scale',
@@ -1040,10 +1040,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_jumbotron_breakpoints_kalapicture_screen-xs_2x.
-  $styles['kalapicture_jumbotron_breakpoints_kalapicture_screen-xs_2x'] = array(
-    'name' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xs_2x',
-    'label' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xs_2x',
+  // Exported image style: hot_picture_jumbotron_breakpoints_hot_picture_screen-xs_2x.
+  $styles['hot_picture_jumbotron_breakpoints_hot_picture_screen-xs_2x'] = array(
+    'name' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-xs_2x',
+    'label' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-xs_2x',
     'effects' => array(
       10 => array(
         'label' => 'Scale',
@@ -1064,10 +1064,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_jumbotron_breakpoints_kalapicture_screen-xxs_1x.
-  $styles['kalapicture_jumbotron_breakpoints_kalapicture_screen-xxs_1x'] = array(
-    'name' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xxs_1x',
-    'label' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xxs_1x',
+  // Exported image style: hot_picture_jumbotron_breakpoints_hot_picture_screen-xxs_1x.
+  $styles['hot_picture_jumbotron_breakpoints_hot_picture_screen-xxs_1x'] = array(
+    'name' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-xxs_1x',
+    'label' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-xxs_1x',
     'effects' => array(
       11 => array(
         'label' => 'Scale',
@@ -1088,10 +1088,10 @@ function kalapicture_image_default_styles() {
     ),
   );
 
-  // Exported image style: kalapicture_jumbotron_breakpoints_kalapicture_screen-xxs_2x.
-  $styles['kalapicture_jumbotron_breakpoints_kalapicture_screen-xxs_2x'] = array(
-    'name' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xxs_2x',
-    'label' => 'kalapicture_jumbotron_breakpoints_kalapicture_screen-xxs_2x',
+  // Exported image style: hot_picture_jumbotron_breakpoints_hot_picture_screen-xxs_2x.
+  $styles['hot_picture_jumbotron_breakpoints_hot_picture_screen-xxs_2x'] = array(
+    'name' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-xxs_2x',
+    'label' => 'hot_picture_jumbotron_breakpoints_hot_picture_screen-xxs_2x',
     'effects' => array(
       12 => array(
         'label' => 'Scale',

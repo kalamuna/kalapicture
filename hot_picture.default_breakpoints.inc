@@ -1,22 +1,22 @@
 <?php
 /**
  * @file
- * kalapicture.default_breakpoints.inc
+ * hot_picture.default_breakpoints.inc
  */
 
 /**
  * Implements hook_default_breakpoints().
  */
-function kalapicture_default_breakpoints() {
+function hot_picture_default_breakpoints() {
   $export = array();
 
   $breakpoint = new stdClass();
   $breakpoint->disabled = FALSE; /* Edit this to true to make a default breakpoint disabled initially */
   $breakpoint->api_version = 1;
-  $breakpoint->machine_name = 'breakpoints.kalapicture.screen-lg';
+  $breakpoint->machine_name = 'breakpoints.hot_picture.screen-lg';
   $breakpoint->name = 'screen-lg';
   $breakpoint->breakpoint = '(min-width: 1200px)';
-  $breakpoint->source = 'kalapicture';
+  $breakpoint->source = 'hot_picture';
   $breakpoint->source_type = 'module';
   $breakpoint->status = 1;
   $breakpoint->weight = 3;
@@ -24,15 +24,15 @@ function kalapicture_default_breakpoints() {
     '1x' => '1x',
     '2x' => '2x',
   );
-  $export['breakpoints.kalapicture.screen-lg'] = $breakpoint;
+  $export['breakpoints.hot_picture.screen-lg'] = $breakpoint;
 
   $breakpoint = new stdClass();
   $breakpoint->disabled = FALSE; /* Edit this to true to make a default breakpoint disabled initially */
   $breakpoint->api_version = 1;
-  $breakpoint->machine_name = 'breakpoints.kalapicture.screen-md';
+  $breakpoint->machine_name = 'breakpoints.hot_picture.screen-md';
   $breakpoint->name = 'screen-md';
   $breakpoint->breakpoint = '(min-width: 992px) and (max-width: 1199px)';
-  $breakpoint->source = 'kalapicture';
+  $breakpoint->source = 'hot_picture';
   $breakpoint->source_type = 'module';
   $breakpoint->status = 1;
   $breakpoint->weight = 2;
@@ -40,15 +40,15 @@ function kalapicture_default_breakpoints() {
     '1x' => '1x',
     '2x' => '2x',
   );
-  $export['breakpoints.kalapicture.screen-md'] = $breakpoint;
+  $export['breakpoints.hot_picture.screen-md'] = $breakpoint;
 
   $breakpoint = new stdClass();
   $breakpoint->disabled = FALSE; /* Edit this to true to make a default breakpoint disabled initially */
   $breakpoint->api_version = 1;
-  $breakpoint->machine_name = 'breakpoints.kalapicture.screen-sm';
+  $breakpoint->machine_name = 'breakpoints.hot_picture.screen-sm';
   $breakpoint->name = 'screen-sm';
   $breakpoint->breakpoint = '(min-wdith: 768px) and (max-width: 991px)';
-  $breakpoint->source = 'kalapicture';
+  $breakpoint->source = 'hot_picture';
   $breakpoint->source_type = 'module';
   $breakpoint->status = 1;
   $breakpoint->weight = 1;
@@ -56,15 +56,15 @@ function kalapicture_default_breakpoints() {
     '1x' => '1x',
     '2x' => '2x',
   );
-  $export['breakpoints.kalapicture.screen-sm'] = $breakpoint;
+  $export['breakpoints.hot_picture.screen-sm'] = $breakpoint;
 
   $breakpoint = new stdClass();
   $breakpoint->disabled = FALSE; /* Edit this to true to make a default breakpoint disabled initially */
   $breakpoint->api_version = 1;
-  $breakpoint->machine_name = 'breakpoints.kalapicture.screen-xl';
+  $breakpoint->machine_name = 'breakpoints.hot_picture.screen-xl';
   $breakpoint->name = 'screen-xl';
   $breakpoint->breakpoint = '(min-width: 1400px)';
-  $breakpoint->source = 'kalapicture';
+  $breakpoint->source = 'hot_picture';
   $breakpoint->source_type = 'module';
   $breakpoint->status = 1;
   $breakpoint->weight = 4;
@@ -72,15 +72,15 @@ function kalapicture_default_breakpoints() {
     '1x' => '1x',
     '2x' => '2x',
   );
-  $export['breakpoints.kalapicture.screen-xl'] = $breakpoint;
+  $export['breakpoints.hot_picture.screen-xl'] = $breakpoint;
 
   $breakpoint = new stdClass();
   $breakpoint->disabled = FALSE; /* Edit this to true to make a default breakpoint disabled initially */
   $breakpoint->api_version = 1;
-  $breakpoint->machine_name = 'breakpoints.kalapicture.screen-xs';
+  $breakpoint->machine_name = 'breakpoints.hot_picture.screen-xs';
   $breakpoint->name = 'screen-xs';
   $breakpoint->breakpoint = '(min-width: 480px)and (max-width: 767px)';
-  $breakpoint->source = 'kalapicture';
+  $breakpoint->source = 'hot_picture';
   $breakpoint->source_type = 'module';
   $breakpoint->status = 1;
   $breakpoint->weight = 0;
@@ -88,15 +88,15 @@ function kalapicture_default_breakpoints() {
     '1x' => '1x',
     '2x' => '2x',
   );
-  $export['breakpoints.kalapicture.screen-xs'] = $breakpoint;
+  $export['breakpoints.hot_picture.screen-xs'] = $breakpoint;
 
   $breakpoint = new stdClass();
   $breakpoint->disabled = FALSE; /* Edit this to true to make a default breakpoint disabled initially */
   $breakpoint->api_version = 1;
-  $breakpoint->machine_name = 'breakpoints.kalapicture.screen-xxs';
+  $breakpoint->machine_name = 'breakpoints.hot_picture.screen-xxs';
   $breakpoint->name = 'screen-xxs';
   $breakpoint->breakpoint = '(max-width: 479px)';
-  $breakpoint->source = 'kalapicture';
+  $breakpoint->source = 'hot_picture';
   $breakpoint->source_type = 'module';
   $breakpoint->status = 1;
   $breakpoint->weight = 0;
@@ -104,7 +104,7 @@ function kalapicture_default_breakpoints() {
     '1x' => '1x',
     '2x' => '2x',
   );
-  $export['breakpoints.kalapicture.screen-xxs'] = $breakpoint;
+  $export['breakpoints.hot_picture.screen-xxs'] = $breakpoint;
 
   return $export;
 }
