@@ -74,6 +74,25 @@ function kalapicture_default_breakpoint_group() {
   $breakpoints[] = 'breakpoints.kalapicture.screen-sm';
   $breakpoints[] = 'breakpoints.kalapicture.screen-md';
   $breakpoints[] = 'breakpoints.kalapicture.screen-lg';
+
+  // Breakpoint group.
+  $breakpoint_group = new stdClass();
+  $breakpoint_group->disabled = FALSE; /* Edit this to true to make a default breakpoint_group disabled initially */
+  $breakpoint_group->api_version = 1;
+  $breakpoint_group->machine_name = 'kalapicture_col_md_9';
+  $breakpoint_group->name = 'Kalapicture 3/4 (col-md-9)';
+  $breakpoint_group->breakpoints = $breakpoints;
+  $breakpoint_group->type = 'custom';
+  $breakpoint_group->overridden = 0;
+  $export['kalapicture_col_md_9'] = $breakpoint_group;
+
+  // Breakpoints.
+  $breakpoints = array();
+  $breakpoints[] = 'breakpoints.kalapicture.screen-xs';
+  $breakpoints[] = 'breakpoints.kalapicture.screen-xxs';
+  $breakpoints[] = 'breakpoints.kalapicture.screen-sm';
+  $breakpoints[] = 'breakpoints.kalapicture.screen-md';
+  $breakpoints[] = 'breakpoints.kalapicture.screen-lg';
   $breakpoints[] = 'breakpoints.kalapicture.screen-xl';
 
   // Breakpoint group.
